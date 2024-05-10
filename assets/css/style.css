@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* darkmode */
+#icon {
+    width: 38px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    border: 2px #29292c;
+}
+
+:root {
+    /* --primary-color: #fff; */
+    --primary-color: linear-gradient(to right, #d8d8d8, #fff);
+    --secondary-color: #000;
+}
+
+.dark-theme {
+    /* --primary-color: #000; */
+    --primary-color: linear-gradient(to right, #202022, #29292c);
+    --secondary-color: #fff;
+}
+
+body {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: poppins;
+}
+.page-section {
+    padding: 6rem 0;
+  }
+  .page-section .page-section-heading {
+    line-height: 2rem;
+}
+nav {
+    color: var(--primary-color);
+    font-family: poppins;
+}
+
+.nav-link:hover {
+    /* background-color: #525CEB; */
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.nav-link,
+.navbar-brand {
+    color: var(--secondary-color);
+    padding: 5px;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.navbar, .nav, .navbar-collapse {
+    background: var(--primary-color);
+}
+
+#jumbotron, .jumbotron {
+    display: flex;
+    margin-top: 20px;
+    padding: 40px;
+    min-height: 100vh;
+    color: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+.display-6 {
+    color: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+.img-foto-me {
+    z-index: 2;
+    position: relative;
+    width: 200px;
+}
+.bloob {
+    margin-top: -105px; 
+}
+hr.gradient {
+    width: 399px;
+    height: 5px;
+    background: linear-gradient(to right, #333, #ccc);
+    border: none;
+}  
+.progress {
+    height: 20px;
+    margin-top: 12px;
+}
+.progress-bar {
+    /* background-color: linear-gradient(to top, #00c6fb 0%, #005bea 100%); */
+    color: #fff; 
+    font-weight: bold;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+}  
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.social-icon1 {
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.social-icon1 i {
+    color: var(--secondary-color);
+    font-size: 25px;
+}
+.social-icon2 {
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.social-icon2 i {
+    color: var(--secondary-color);
+    font-size: 25px;
+}
+.social-icon3 {
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.social-icon3 i {
+    color: var(--secondary-color);
+    font-size: 25px;
+}  
+.social-icon4 {
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.social-icon1:hover, .social-icon2:hover, .social-icon3:hover, .social-icon4:hover {
+  transform: scale(1.2);
+}
+
+.social-icon4 i {
+    color: var(--secondary-color);
+    font-size: 25px;
+}
+.card {
+    transition: transform 0.3s;
+}  
+.card:hover {
+    transform: scale(1.1);
+}
+footer {
+    background: linear-gradient(to right, #202022, #29292c);
+    color: #fff;
+}
+.container-cards {
+    overflow-y: auto; /* Membuat container dapat digulir secara horizontal */
+    white-space: nowrap; /* Mencegah wrap ke baris baru */
+    cursor: grab; /* Mengubah kursor menjadi tanda tangan saat bisa digeser */
+}
+.container-cards:active {
+    cursor: grabbing; /* Mengubah kursor menjadi tanda tangan yang sedang menggeser saat sedang digeser */
+}
+.cards-container {
+    display: inline-block; /* Menghindari wrap ke baris baru */
+    white-space: nowrap; /* Mencegah wrap ke baris baru */
+}
+.cards {
+    display: inline-block; /* Menghindari wrap ke baris baru */
+    /* width: 200px; Atur lebar card sesuai kebutuhan */
+    margin-right: 10px; /* Atur jarak antara card */
+    vertical-align: top; /* Menjaga konsistensi posisi card */
+}

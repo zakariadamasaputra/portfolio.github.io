@@ -164,6 +164,7 @@ a {
 .unduh-cv {
     background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
     border-radius: 10px;
+    padding: 5%;
 }
 .social-icon1:hover, .social-icon2:hover, .social-icon3:hover, .social-icon4:hover {
   transform: scale(1.2);

@@ -161,10 +161,14 @@ a {
     border-radius: 50%;
     transition: transform 0.3s;
 }
-.unduh-cv, .view-app {
+.unduh-cv {
     background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
     border-radius: 10px;
     padding: 5%;
+}
+.view-app {
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    border-radius: 10px;
 }
 .social-icon1:hover, .social-icon2:hover, .social-icon3:hover, .social-icon4:hover {
   transform: scale(1.2);
